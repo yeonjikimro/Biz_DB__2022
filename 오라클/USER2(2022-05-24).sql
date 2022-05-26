@@ -1,0 +1,4 @@
+
+CREATE TABLESPACE iolist
+DATAFILE 'C:/oraclexe/data/iolist.dbf'
+SIZE 1M AUTOEXTEND ON NEXT 1K;
