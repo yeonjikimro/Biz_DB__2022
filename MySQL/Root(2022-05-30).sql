@@ -37,6 +37,7 @@ TO 'duswl'@'localhost';
 
 CREATE USER 'user1'@'127.0.0.1' 
 identified BY '!Korea8080';
+
 -- user1 은 모든 DB Schema 에 접근권한 부여
 GRANT ALL privileges ON *.* 
 TO 'user1'@'127.0.0.1';
